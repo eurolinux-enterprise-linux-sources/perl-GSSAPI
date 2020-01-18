@@ -6,7 +6,7 @@
 
 Name:           perl-GSSAPI
 Version:        0.28
-Release:        7.2%{?dist}
+Release:        9%{?dist}
 Summary:        Perl extension providing access to the GSSAPIv2 library
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -62,6 +62,12 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} +
 %{_mandir}/man3/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.28-9
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.28-8
+- Mass rebuild 2013-12-27
+
 * Thu Aug 01 2013 Petr Šabata <contyk@redhat.com> - 0.28-7.2
 - Correct the description and filter out the library provides
 
